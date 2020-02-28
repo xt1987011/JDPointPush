@@ -6,25 +6,18 @@ import time
 jd_base_url = "https://mobile-api.jdcloud.com/v1/regions/cn-north-1/"
 
 # Server酱 如 https://sc.ftqq.com/abc123456789.send
-server_chan_url = "https://sc.ftqq.com/填写你的Key.send"
+server_chan_url = "https://sc.ftqq.com/SCU86745Tf5af32098dc14fa52b5db38cea0cc2735e581674630fb.send"
 
 # 京东路由器设备列表,按照格式可填写多台
 jd_router_device_list = [
-    {"router_name": "京东无线路由宝", "router_mac": "AABBCCDDEEFF"}
-]
-
-# 多台示例,MAC需要全部大写如 AABBCCDDEE11
-# jd_router_device_list = [
-#     {"router_name": "机器01", "router_mac": "XXXXXXXXXX"},
-#     {"router_name": "机器02", "router_mac": "XXXXXXXXXX"},
-#     {"router_name": "机器03", "router_mac": "XXXXXXXXXX"},
-#     {"router_name": "机器04", "router_mac": "XXXXXXXXXX"},
-#     ....................
-# ]
+     {"router_name": "京东无线路由宝01", "router_mac": "DCD87C05148F"},
+     {"router_name": "京东无线路由宝02", "router_mac": "DCD87C0517F8"},
+     {"router_name": "京东无线路由宝03", "router_mac": "DCD87C051C63"},
+ ]
 
 # x-app-id 固定996
 headers = {
-    "wskey": "填写你京东无线宝的wskey",
+    "wskey": "AAJeR98GAEAs8ITpgsbghpu5HI1AMrIgTbOHJv5T122IbkFqqq3RKL4QhY0FimJfL9TlBvKWgjG2qFkIHUZ9Kwl8vNw-n8cR",
     "x-app-id": "996",
     "Content-Type": "application/json"
 }
